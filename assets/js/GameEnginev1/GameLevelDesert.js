@@ -521,7 +521,7 @@ class GameLevelDesert {
           }
       };
 
-    const sprite_src_crypto = path + "https://vscode-remote+wsl-002bubuntu-002d24-002e04.vscode-resource.vscode-cdn.net/home/indirav/Gamify-Exploration/images/gamify/Pink_Coin-removebg-preview.jpg?version%3D1789057356833";
+    const sprite_src_crypto = path + "images/gamify/Pink_Coin-removebg-preview.png";
     const sprite_greet_crypto = "*cha-ching*";
     const sprite_data_crypto = {
         id: 'Crypto-NPC',
