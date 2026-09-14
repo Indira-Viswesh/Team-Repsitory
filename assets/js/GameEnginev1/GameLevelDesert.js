@@ -1,5 +1,5 @@
 // To build GameLevels, each contains GameObjects from below imports
-import GamEnvBackground from './essentials/GameEnvBackground.js';
+import GamEnvBackground from 'images/Desertbackground.png';
 import Player from './essentials/Player.js';
 import Npc from './essentials/Npc.js';
 import Quiz from './Quiz.js';
