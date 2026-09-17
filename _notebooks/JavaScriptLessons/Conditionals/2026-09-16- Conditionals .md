@@ -14,59 +14,57 @@ permalink: /js/conditionals
 author: Indira Viswesh and Angel Bulatao
 ---
 
-## Introduction
+## Introduction (1-2 minute explanation)
 
-**Think**: Imagine your morning alarm rings and you are making the descison to get up, snooze for 5 more minutes, or go back to sleep 
+**Think**: Imagine your morning alarm rings and you must decide whether to get up, snooze for 5 more minutes, or go back to sleep.
 
-First, you would probably check if it's a weekday or weekend and some other things as well. 
+First, check whether it is a school weekday or a weekend, along with a few other details.
 
-**IF** It's a school weekday: 
-- You look at the alarm to see if you can squeeze in 5 more minutes of sleep- but what if you have a test to study for?
-  - **IF** it's a school weekday **AND** there is a test you need to study for, you wake up immediatly
-  - **ELSE** (if it's a school weekday but no exam to study for), you snooze your alarm for 5 more minutes of sleep
+**IF** it is a school weekday:
+- Check the alarm to see whether you can squeeze in 5 more minutes of sleep. But what if you have a test to study for?
+  - **IF** it is a school weekday **AND** you have a test to study for, you get up and study.
+  - **ELSE** (if it is a school weekday but you do not have a test), you snooze your alarm for 5 more minutes.
 
-**ELSE** (if it's not a school weekday): 
-- You skip the alarm, **BUT** you still need to check whether you have homework. 
-  - **IF** there is homework, you go do the homework. 
-  - **ELSE**, you're good to go!
+**ELSE** (if it is a weekend):
+- You can ignore the alarm, **BUT** you still need to check whether you have homework.
+  - **IF** you have homework, you get up and do it.
+  - **ELSE**, you go back to sleep.
 
 See how you're making decisions **INSIDE** other decisions? That's a **nested conditional**!
 
 
-## Nested Conditional Code
+## Nested Conditional Code 
 
 Now let's look at an example of the nested conditional code using the analogy above.
 
 ~~~js
-// Check the time before leaving for school
+// Decide what to do when the morning alarm rings
 if (weekday) {
-    // First decision: It's a weekday, so you check to see if you have time and a test coming up 
-    time();
+  // On a school weekday, check whether you have a test to study for.
     
-    // Nested decision INSIDE the weekday descision
     if (test) {
         study();
-        console.log("It's a weekday and a test");
+    console.log("Wake up and study for the test.");
     } else {
-        console.log("Snooze for 5 more minutes");
+    snoozeAlarm();
+    console.log("Snooze the alarm for 5 more minutes.");
     }
     
 } else {
-    // First decision: Not raining, skip umbrella
-    
-    // Nested decision INSIDE the not-raining condition
-    if (cold) {
-        takeJacket();
-        console.log("Taking just jacket");
+  // On a weekend, check whether you have homework.
+  if (homework) {
+    doHomework();
+    console.log("Wake up and do your homework.");
     } else {
-        console.log("Nothing needed - good to go!");
+    goBackToSleep();
+    console.log("Go back to sleep.");
     }
 }
 ~~~
 
-In the code example above, there are 2 nested conditionals: there's one in the if statement, and one in the else statement. If it's raining, the temperature check inside the if block will run. If it's not raining, we skip the if block entirely and go to the else statement, where a different temperature check will run.
+In the code example above, there are 2 nested conditionals: one inside the weekday branch and one inside the weekend branch. If it is a weekday, the code checks whether you have a test. If it is a weekend, it skips the weekday branch and checks whether you have homework.
 
-Now you go ahead and try!
+**Now you go ahead and try!** (5 minutes)
 
 
 
