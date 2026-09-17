@@ -11,7 +11,7 @@ microblog: True
 title: Conditionals & Nested Conditionals 
 description: Conditionals using Code Runner
 permalink: /js/conditionals
-author: Indira Viswesh
+author: Indira Viswesh and Angel
 ---
 
 ## Introduction
