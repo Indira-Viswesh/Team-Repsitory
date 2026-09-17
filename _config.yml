@@ -21,6 +21,8 @@ github_username: jm1021
 github_repo: "portfolio" 
 baseurl: "/portfolio" 
 future: true
+include:
+  - _notebooks
 
 # Build settings
 # --------------

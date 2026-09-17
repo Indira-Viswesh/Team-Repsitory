@@ -278,21 +278,16 @@ class GameLevelDesert {
           id: 'Chicken Jockey',
           greeting: sprite_greet_chickenj,
           src: sprite_src_chickenj,
-          SCALE_FACTOR: 9,
+          SCALE_FACTOR: 11,
           ANIMATION_RATE: 100,
-          pixels: {width: 150, height: 255},
+          pixels: {width: 180, height: 260},
           INIT_POSITION: { x: (width * 4 / 6), y: (height * 1 / 10)},
           orientation: {rows: 1, columns: 1 },
           down: {row: 0, start: 0, columns: 1 },
           hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
           // Add dialogues array for random messages
           dialogues: [
-              "BAWK BAWK BAWK BAWK BAWK?!?!?!?",
-              "GRRRRRRRR!!",
-              "I'm placing blocks and stuff cuz im in freaking minceraftttt",
-              "BAWAKKKKK!",
-              "You want to fight the chicken?",
-              "CHICKEN JOCKEEEYYYY"
+              "yesss, follow me to the end of the world!",
           ],
           reaction: function() {
               // Don't show any reaction dialogue - this prevents the first alert
