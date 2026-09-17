@@ -10,8 +10,9 @@ codemirror: True
 microblog: True
 title: Conditionals & Nested Conditionals 
 description: Conditionals using Code Runner
-permalink: /js/nested-conditionals
+permalink: /js/conditionals
 author: Indira Viswesh
+---
 
 ## Introduction
 
@@ -20,7 +21,7 @@ author: Indira Viswesh
 First, you would probably check if it's a weekday or weekend and some other things as well. 
 
 **IF** It's a school weekday: 
-- You turn off the alarm and get off the bed- but what if you have a test to study for?
+- You look at the alarm to see if you can squeeze in 5 more minutes of sleep- but what if you have a test to study for?
   - **IF** it's a school weekday **AND** there is a test you need to study for, you wake up immediatly
   - **ELSE** (if it's a school weekday but no exam to study for), you snooze your alarm for 5 more minutes of sleep
 
@@ -37,17 +38,17 @@ See how you're making decisions **INSIDE** other decisions? That's a **nested co
 Now let's look at an example of the nested conditional code using the analogy above.
 
 ~~~js
-// Check the weather before leaving for school
-if (raining) {
-    // First decision: It's raining, so take umbrella
-    takeUmbrella();
+// Check the time before leaving for school
+if (weekday) {
+    // First decision: It's a weekday, so you check to see if you have time and a test coming up 
+    time();
     
-    // Nested decision INSIDE the raining condition
-    if (cold) {
-        takeJacket();
-        console.log("Taking umbrella AND jacket");
+    // Nested decision INSIDE the weekday descision
+    if (test) {
+        study();
+        console.log("It's a weekday and a test");
     } else {
-        console.log("Taking just umbrella");
+        console.log("Snooze for 5 more minutes");
     }
     
 } else {
