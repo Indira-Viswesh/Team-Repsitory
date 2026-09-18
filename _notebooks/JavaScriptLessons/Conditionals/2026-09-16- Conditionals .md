@@ -14,11 +14,23 @@ permalink: /js/conditionals
 author: Indira Viswesh and Angel Bulatao
 ---
 
-## Introduction (1-2 minute explanation)
+
+
+
+## Define & Lesson Plan Overview
+
+**POV**: CSSE students need a way to build games using multiple true/false statements to make  game more interactive
+
+**Learning Goal**: Students will get a brief understanding on how to use nested conitionals & **IF** and **THEN** statements 
+
+**Learning Objective**: By the end of this lesson, you should be able to understand nested conditionals
+
+## Introduction (1-3 minutes)
+
 
 **Think**: Imagine your morning alarm rings and you must decide whether to get up, snooze for 5 more minutes, or go back to sleep.
 
-First, check whether it is a school weekday or a weekend, along with a few other details.
+First, you would check whether it is a school weekday or a weekend, along with a few other details.
 
 **IF** it is a school weekday:
 - Check the alarm to see whether you can squeeze in 5 more minutes of sleep. But what if you have a test to study for?
@@ -31,6 +43,8 @@ First, check whether it is a school weekday or a weekend, along with a few other
   - **ELSE**, you go back to sleep.
 
 See how you're making decisions **INSIDE** other decisions? That's a **nested conditional**!
+
+**IF** and **ELSE** 
 
 
 ## Nested Conditional Code 
@@ -64,9 +78,9 @@ if (weekday) {
 
 In the code example above, there are 2 nested conditionals: one inside the weekday branch and one inside the weekend branch. If it is a weekday, the code checks whether you have a test. If it is a weekend, it skips the weekday branch and checks whether you have homework.
 
-**Now you go ahead and try!** (5 minutes)
+**Now you go ahead and try!** (3 minutes)
 
-
+*Extra info*: Using 'const'' lets us to store data and control variables
 
 {% capture challenge0 %}
 Complete the nested conditional to make it list if the numbers 1-10 are odd or even and if they are divisible by 3.
