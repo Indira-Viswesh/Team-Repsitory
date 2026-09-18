@@ -175,7 +175,7 @@ Now, you're a bouncer at a nightclub. You need to make a for loop with a nested 
 
 {% capture code1 %}
 // List of people trying to get into the nightclub
-const people = [
+const fruits = [
   { name: 'jimmy', age: 15, wearsSunglasses: false },
   { name: 'sara', age: 5, wearsSunglasses: true },
   { name: 'alex', age: 22, wearsSunglasses: true },
