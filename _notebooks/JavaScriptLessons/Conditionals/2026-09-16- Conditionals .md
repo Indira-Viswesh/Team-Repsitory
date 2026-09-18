@@ -245,8 +245,8 @@ for (const person of people) {
 ## Homework
 Make a nested conditional that does the following: 
 1. contains more than 1 nested conditional
-2. use the numbers 1-50
-3. check if each number is divisible by each factor of 50
+2. use the numbers 1-100
+3. check if each number is divisible by each factor of 5
 
 
 
