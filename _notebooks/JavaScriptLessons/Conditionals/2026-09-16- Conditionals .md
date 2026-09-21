@@ -11,7 +11,7 @@ microblog: True
 title: Conditionals & Nested Conditionals 
 description: Conditionals using Code Runner
 permalink: /js/conditionals
-author: Indira Viswesh and Angel Bulatao
+
 ---
 
 
@@ -34,7 +34,7 @@ Conditionals allow dynamic responses to different blocks of code depending on wh
 
 Types: if, if-else. else if, (+switch)
 
-__________________________
+___________________________________________________________________________________________________________
 
 
 **Think**: Imagine your morning alarm rings and you must decide whether to get up, snooze for 5 more minutes, or go back to sleep.
