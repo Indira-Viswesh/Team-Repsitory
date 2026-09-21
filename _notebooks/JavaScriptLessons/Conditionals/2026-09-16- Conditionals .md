@@ -27,6 +27,15 @@ author: Indira Viswesh and Angel Bulatao
 
 ## Introduction (1-3 minutes)
 
+**Conditionals**
+__________________________
+
+Conditionals allow dynamic responses to different blocks of code depending on wheater it is true or false.
+
+Types: if, if-else. else if, (+switch)
+
+__________________________
+
 
 **Think**: Imagine your morning alarm rings and you must decide whether to get up, snooze for 5 more minutes, or go back to sleep.
 
@@ -44,7 +53,8 @@ First, you would check whether it is a school weekday or a weekend, along with a
 
 See how you're making decisions **INSIDE** other decisions? That's a **nested conditional**!
 
-**IF** and **ELSE** 
+
+
 
 
 ## Nested Conditional Code 
