@@ -29,7 +29,6 @@ author: Indira Viswesh and Angel Bulatao
 
 
 **Conditionals**
-__________________________
 
 Conditionals allow dynamic responses to different blocks of code depending on wheater it is true or false.
 
