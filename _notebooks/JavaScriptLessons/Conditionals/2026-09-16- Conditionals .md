@@ -27,6 +27,7 @@ author: Indira Viswesh and Angel Bulatao
 
 ## Introduction (1-3 minutes)
 
+
 **Conditionals**
 __________________________
 
@@ -52,7 +53,6 @@ First, you would check whether it is a school weekday or a weekend, along with a
   - **ELSE**, you go back to sleep.
 
 See how you're making decisions **INSIDE** other decisions? That's a **nested conditional**!
-
 
 
 
